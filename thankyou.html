@@ -1,36 +1,64 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700' rel='stylesheet' type='text/css'>
-    <style>
-        @import url(//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css);
-        @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
-    </style>
-    <link rel="stylesheet" href="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/default_thank_you.css">
-    <script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/jquery-1.9.1.min.js"></script>
-    <script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/html5shiv.js"></script>
-    <script>
-        setTimeout(function() {
-            window.location.href = 'https://Bhardwaj It Solutions.in  ';
-        }, 4000); // 4 seconds delay
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You — Bhardwaj IT Solutions</title>
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="site-header" id="header">
-        <h1 class="site-header__title" data-lead-id="site-header-title">THANK YOU!</h1>
-    </header>
 
-    <div class="main-content">
-        <i class="fa fa-check main-content__checkmark" id="checkmark"></i>
-        <p class="main-content__body" data-lead-id="main-content-body">Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for being you.</p>
-        <button onclick="window.location.href ='https://Bhardwaj It Solutions.in'">Back to Home</button>
+<header class="nav scrolled">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="mark"><span>B</span></span> Bhardwaj IT Solutions</a>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Get a Quote</a>
+      <div class="burger" aria-label="Menu"><span></span></div>
     </div>
+  </div>
+</header>
 
-    <footer class="site-footer" id="footer">
-        <p class="site-footer__fineprint" id="fineprint">Copyright ©2014 | All Rights Reserved</p>
-    </footer>
+<section class="hero" style="min-height:80vh;">
+  <div class="hero-bg"></div>
+  <div class="grid-overlay"></div>
+  <div class="wrap center-text reveal" style="max-width:640px; margin-inline:auto;">
+    <div class="scene" style="height:160px; margin-bottom:20px;">
+      <div class="scene-stage" style="position:relative;">
+        <div class="card3d" style="position:relative; width:110px; height:110px; margin:0 auto; display:flex; align-items:center; justify-content:center;">
+          <div class="ic" style="width:60px;height:60px;margin:0;"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:30px;height:30px;"><path d="M20 6L9 17l-5-5"/></svg></div>
+        </div>
+      </div>
+    </div>
+    <div class="eyebrow" style="justify-content:center;">Message Sent</div>
+    <h1 class="h-lg">Thank you — we've got your request!</h1>
+    <p class="lede" style="margin-inline:auto;">Our team will review your details and reply within 24 hours. In the meantime, feel free to explore more about what we do.</p>
+    <div class="btn-row" style="display:flex; gap:16px; justify-content:center; margin-top:30px; flex-wrap:wrap;">
+      <a href="index.html" class="btn btn-primary">Back to Home</a>
+      <a href="services.html" class="btn btn-ghost">View Services</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" style="padding-top:40px;">
+  <div class="wrap">
+    <div class="f-bottom">
+      <p>&copy; <span id="year"></span> Bhardwaj IT Solutions. All rights reserved.</p>
+      <p><a href="tel:+917895488756">+91 78954 88756</a> · <a href="mailto:help.skywave@yahoo.com">help.skywave@yahoo.com</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
